@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+#font_awesome{
+    opacity: 0;
+}
+
+#search_button {
+    position: relative;
+}
+
+    #serach_querry {
+        background-color: transparent;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png);
+        background-position: left 4px bottom 2px;
+        background-repeat: no-repeat;
+        background-size: 19px 19px;
+        border-width: 0;
+        
+        
+        margin-top: 0;
+        outline: 0;
+        padding: 0 0 0 1.5em;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+        border: 2px solid black;
+    }
+
+#font_awesome {
+    position: relative;
+    left: 68%;
+    top: 66px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header */
+.logo {
+   
+    padding: 37px 12px;
+}
+.cointainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    margin: 0px 219px
+    }
+.box{
+    margin: 24px 1px;
+    padding: 19px 12px;
+    /* border: 2px solid black; */
+    border-radius: 18px;
+    text-align: center;
+
+}
+.box:hover{
+    background-color: rgb(243, 214, 214);
+}
+.navbar li a{
+    text-decoration: none;
+    color:rgb(5, 1, 1);
+    font-size: 1.5rem;
+}
+#color{
+    color: blue;
+}
+
+#search_button input{
+    border-radius: 22px;
+    font-size: 22px;
+}
+/* universal */
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+    margin: 15px 98px;
+    
+}
+.para{
+    text-align: center;
+    color: rgb(21 21 22 / 50%);
+}
+.h-primary {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.h-secondary center{
+    text-align: center;
+}
+.center{
+    text-align: center;
+    color: rgb(21 21 22 / 50%);
+}
+#cente{
+    text-align: center;
+}
+#witer {
+    position: relative;
+    top: 99px;
+    font-size: 38px;
+    color: white;
+}
+
+
+
+/* section */
+.sec{
+    
+    margin: 5px 2px;
+    /* padding: 292px 155px; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+#btn{
+    margin: 23px 23px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 0.5px solid black;
+    padding: 12px 12px;
+    background-color: blue;
+    color: white;
+}
+/* #btn:hover{
+    background-color: rgb(39, 10, 204);
+} */
+
+/* SERVICESS */
+ #food{
+    
+    display: flex;
+    padding: 0px 172px;
+    
+}
+
+.image img{
+      
+    margin: 15px 6px;
+    border-radius: 31px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#lorem{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 77px -31px;
+    padding: 21px 17px;
+    top: 23%;
+    position: relative;
+    left: -2%;
+    background: white;
+    border-radius: 22px;
+    
+
+
+}
+.p{
+    margin: 8px 0px;
+  
+}
+#new{
+    color: rgba(0, 0, 25, 0.5);
+}
+#newe{
+    color: blue;
+}
+
+
+
+/* our clients */
+
+#client{
+    display: flex;
+    height: 33px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 66%;
+    top: -63px;
+    width: 188px;
+}
+#client img{
+    height: 29px;
+    width: 25px;
+    margin: 1px 16px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+ 
+    color: white;
+    margin: auto;
+    width: 86%;
+}
+.grid-item img{
+    height: 52px;
+    width: 48px;
+    border-radius: 50%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    border-radius: 34px;
+    margin-top:56px ;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-item {
+   
+    padding: 52px 89px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .f_size{
+      color: white;
+  }
